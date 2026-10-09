@@ -212,3 +212,14 @@ button:focus {
   margin: 0;
   color: #e0e0e0;
 }
+
+.site-footer {
+  background: #2c2f33;
+  padding: 22px 64px;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0;
+  color: #e0e0e0;
+}
