@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LevelUp Hardware - Home</title>
+<title>LevelUp Hardware - Producten</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -28,15 +28,15 @@
   .hero .subtitle { font-size: 34px; margin-top: 6px; }
 
   .intro-row {
-    gap: 30px;
-    margin-bottom: 0;
+    gap: 60px;
+    margin-bottom: 48px;
   }
   .intro-text { flex: 1 1 50%; }
   .intro-text p { font-size: 17px; margin: 0 0 22px; }
   .intro-text h3 { font-size: 19px; margin: 30px 0 0; }
 
-  .intro-image { flex: 1 1 46%; display: flex; align-items: flex-start; justify-content: center; padding-top: 6px; overflow: hidden; }
-  .intro-image img { width: 100%; max-width: 420px; margin-top: -70px; }
+  .intro-image { flex: 1 1 46%; display: flex; align-items: flex-start; justify-content: center; padding-top: 6px; }
+  .intro-image img { width: 100%; max-width: 420px; }
 
   .features-row {
     gap: 60px;
@@ -49,6 +49,8 @@
   .features-list li { font-size: 17px; margin-bottom: 20px; padding-left: 1.3em; }
 
   .newsletter { margin: 60px 0; }
+  .products { margin-bottom: 60px; }
+.product-card img { width: 220px; flex-shrink: 0; }
 
   @media (max-width: 700px) {
     .site-header { padding: 16px 20px; flex-wrap: wrap; }
@@ -61,8 +63,8 @@
     .hero h1 { font-size: 34px; }
     .hero .subtitle { font-size: 20px; }
 
-    .intro-row { flex-direction: column; gap: 26px; }
-    .features-row { flex-direction: column; gap: 26px; }
+    .product-card { flex-direction: column; text-align: center; }
+    .product-card img { width: 100%; max-width: 260px; }
   }
 </style>
 </head>
@@ -75,39 +77,46 @@
   </div>
   <nav class="main-nav">
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="over-ons.html">Over ons</a></li>
-      <li><a href="producten.html">Producten</a></li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="over-ons.php">Over ons</a></li>
+      <li><a href="producten.php">Producten</a></li>
     </ul>
   </nav>
 </header>
 
 <main>
   <section class="hero">
-    <h1>High-end Gaming Gear</h1>
-    <p class="subtitle">In Breda</p>
+    <h1>Producten</h1>
+    <p class="subtitle">Voor de Serieuze Gamer</p>
   </section>
 
-  <section class="intro-row">
-    <div class="intro-text">
-      <p>Bij LevelUp Hardware draait alles om performance. Of je nu op zoek bent naar een nieuwe laptop die de nieuwste AAA-titels moeiteloos draait, of je huidige rig een professionele onderhoudsbeurt nodig heeft; wij staan voor je klaar.</p>
-      <p>In onze fysieke winkel combineren we de nostalgische sfeer van de jaren '80 arcades met de brute kracht van de hardware van morgen.</p>
-      <h3>Waarom kiezen voor ons?</h3>
+  <section class="products">
+    <div class="product-card">
+      <img src="assets/laptop.webp" alt="Gaming Laptop X1">
+      <div>
+        <h3>Gaming Laptop X1</h3>
+        <p class="price">€1499</p>
+        <p>Krachtige laptop met de nieuwste GPU voor ultieme gaming prestaties.</p>
+      </div>
     </div>
-    <div class="intro-image">
-      <img src="assets/laptop.webp" alt="High-end gaming laptop">
-    </div>
-  </section>
 
-  <section class="features-row">
-    <div class="shop-image">
-      <img src="assets/storefront.png" alt="LevelUp Hardware winkel in Breda">
+    <div class="product-card">
+      <img src="assets/pc.png" alt="Custom Gaming PC">
+      <div>
+        <h3>Custom Gaming PC</h3>
+        <p class="price">€1999</p>
+        <p>Op maat gemaakte desktop met topkwaliteit componenten voor maximale snelheid.</p>
+      </div>
     </div>
-    <ul class="features-list">
-      <li><strong>Curated Selectie:</strong> Wij verkopen alleen laptops waar we zelf achter staan. Geen concessies op bouwkwaliteit of koeling.</li>
-      <li><strong>Expert Onderhoud:</strong> Van het vervangen van koelpasta tot complexe hardware-upgrades; wij verlengen de levensduur van je machine.</li>
-      <li><strong>Persoonlijk advies:</strong> Geen standaard verkooppraatjes, maar eerlijk advies gebaseerd op jouw favoriete games en workflow.</li>
-    </ul>
+
+    <div class="product-card">
+      <img src="assets/headset.webp" alt="Pro Gaming Headset">
+      <div>
+        <h3>Pro Gaming Headset</h3>
+        <p class="price">€199</p>
+        <p>Comfortabele headset met surround sound voor een meeslepende game-ervaring.</p>
+      </div>
+    </div>
   </section>
 
   <section class="newsletter">

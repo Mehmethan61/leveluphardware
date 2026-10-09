@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LevelUp Hardware - Producten</title>
+<title>LevelUp Hardware - Over Ons</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -36,7 +36,12 @@
   .intro-text h3 { font-size: 19px; margin: 30px 0 0; }
 
   .intro-image { flex: 1 1 46%; display: flex; align-items: flex-start; justify-content: center; padding-top: 6px; }
-  .intro-image img { width: 100%; max-width: 420px; }
+  .intro-image img {
+    width: 100%;
+    max-width: 420px;
+    border: 2px solid #22c55e;
+    box-shadow: 0 0 12px #22c55e;
+  }
 
   .features-row {
     gap: 60px;
@@ -49,8 +54,6 @@
   .features-list li { font-size: 17px; margin-bottom: 20px; padding-left: 1.3em; }
 
   .newsletter { margin: 60px 0; }
-  .products { margin-bottom: 60px; }
-.product-card img { width: 220px; flex-shrink: 0; }
 
   @media (max-width: 700px) {
     .site-header { padding: 16px 20px; flex-wrap: wrap; }
@@ -63,8 +66,8 @@
     .hero h1 { font-size: 34px; }
     .hero .subtitle { font-size: 20px; }
 
-    .product-card { flex-direction: column; text-align: center; }
-    .product-card img { width: 100%; max-width: 260px; }
+    .intro-row { flex-direction: column; gap: 26px; }
+    .features-row { flex-direction: column; gap: 26px; }
   }
 </style>
 </head>
@@ -77,45 +80,28 @@
   </div>
   <nav class="main-nav">
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="over-ons.html">Over ons</a></li>
-      <li><a href="producten.html">Producten</a></li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="over-ons.php">Over ons</a></li>
+      <li><a href="producten.php">Producten</a></li>
     </ul>
   </nav>
 </header>
 
 <main>
   <section class="hero">
-    <h1>Producten</h1>
-    <p class="subtitle">Voor de Serieuze Gamer</p>
+  <h1>Over Ons</h1>
+  <p class="subtitle">LevelUp Hardware</p>
   </section>
 
-  <section class="products">
-    <div class="product-card">
-      <img src="assets/laptop.webp" alt="Gaming Laptop X1">
-      <div>
-        <h3>Gaming Laptop X1</h3>
-        <p class="price">€1499</p>
-        <p>Krachtige laptop met de nieuwste GPU voor ultieme gaming prestaties.</p>
-      </div>
+     <section class="intro-row">
+    <div class="intro-text">
+      <p>Welkom bij Level Up Hardware, de plek waar jouw gaming-dromen werkelijkheid worden. Als eigenaar en drijvende kracht achter deze zaak, is Daan meer dan alleen een ondernemer; hij is een gamer in hart en nieren en een absolute hardware-enthousiasteling.</p>
+      <p>Al sinds zijn tienerjaren, omringd door de gloed van CRT-schermen en de pulserende beat van synthwave, sleutelde Daan aan zijn eigen gaming-rigs. Wat begon als een hobby – het finetunen van elke component voor die extra frame per seconde, het optimaliseren van koelsystemen voor piekprestaties – groeide al snel uit tot een diepgewortelde passie.</p>
+      <h3>Jouw Game is zijn Prioriteit</h3>
+      <p>Of je nu de grenzen van virtual reality verkent, in competitieverband strijdt om de hoogste rang, of gewoon wilt genieten van adembenemende singleplayer-avonturen: Daan en zijn team zorgen ervoor dat je hardware je nooit in de steek laat. Hij gelooft dat een perfect afgestelde machine het verschil maakt tussen gewoon gamen en écht domineren.</p>
     </div>
-
-    <div class="product-card">
-      <img src="assets/pc.png" alt="Custom Gaming PC">
-      <div>
-        <h3>Custom Gaming PC</h3>
-        <p class="price">€1999</p>
-        <p>Op maat gemaakte desktop met topkwaliteit componenten voor maximale snelheid.</p>
-      </div>
-    </div>
-
-    <div class="product-card">
-      <img src="assets/headset.webp" alt="Pro Gaming Headset">
-      <div>
-        <h3>Pro Gaming Headset</h3>
-        <p class="price">€199</p>
-        <p>Comfortabele headset met surround sound voor een meeslepende game-ervaring.</p>
-      </div>
+    <div class="intro-image">
+      <img src="assets/daan.jpg" alt="Daan van der Meer">
     </div>
   </section>
 

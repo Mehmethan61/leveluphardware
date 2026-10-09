@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LevelUp Hardware - Over Ons</title>
+<title>LevelUp Hardware - Home</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -28,20 +28,15 @@
   .hero .subtitle { font-size: 34px; margin-top: 6px; }
 
   .intro-row {
-    gap: 60px;
-    margin-bottom: 48px;
+    gap: 30px;
+    margin-bottom: 0;
   }
   .intro-text { flex: 1 1 50%; }
   .intro-text p { font-size: 17px; margin: 0 0 22px; }
   .intro-text h3 { font-size: 19px; margin: 30px 0 0; }
 
-  .intro-image { flex: 1 1 46%; display: flex; align-items: flex-start; justify-content: center; padding-top: 6px; }
-  .intro-image img {
-    width: 100%;
-    max-width: 420px;
-    border: 2px solid #22c55e;
-    box-shadow: 0 0 12px #22c55e;
-  }
+  .intro-image { flex: 1 1 46%; display: flex; align-items: flex-start; justify-content: center; padding-top: 6px; overflow: hidden; }
+  .intro-image img { width: 100%; max-width: 420px; margin-top: -70px; }
 
   .features-row {
     gap: 60px;
@@ -80,29 +75,39 @@
   </div>
   <nav class="main-nav">
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="over-ons.html">Over ons</a></li>
-      <li><a href="producten.html">Producten</a></li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="over-ons.php">Over ons</a></li>
+      <li><a href="producten.php">Producten</a></li>
     </ul>
   </nav>
 </header>
 
 <main>
   <section class="hero">
-  <h1>Over Ons</h1>
-  <p class="subtitle">LevelUp Hardware</p>
+    <h1>High-end Gaming Gear</h1>
+    <p class="subtitle">In Breda</p>
   </section>
 
-     <section class="intro-row">
+  <section class="intro-row">
     <div class="intro-text">
-      <p>Welkom bij Level Up Hardware, de plek waar jouw gaming-dromen werkelijkheid worden. Als eigenaar en drijvende kracht achter deze zaak, is Daan meer dan alleen een ondernemer; hij is een gamer in hart en nieren en een absolute hardware-enthousiasteling.</p>
-      <p>Al sinds zijn tienerjaren, omringd door de gloed van CRT-schermen en de pulserende beat van synthwave, sleutelde Daan aan zijn eigen gaming-rigs. Wat begon als een hobby – het finetunen van elke component voor die extra frame per seconde, het optimaliseren van koelsystemen voor piekprestaties – groeide al snel uit tot een diepgewortelde passie.</p>
-      <h3>Jouw Game is zijn Prioriteit</h3>
-      <p>Of je nu de grenzen van virtual reality verkent, in competitieverband strijdt om de hoogste rang, of gewoon wilt genieten van adembenemende singleplayer-avonturen: Daan en zijn team zorgen ervoor dat je hardware je nooit in de steek laat. Hij gelooft dat een perfect afgestelde machine het verschil maakt tussen gewoon gamen en écht domineren.</p>
+      <p>Bij LevelUp Hardware draait alles om performance. Of je nu op zoek bent naar een nieuwe laptop die de nieuwste AAA-titels moeiteloos draait, of je huidige rig een professionele onderhoudsbeurt nodig heeft; wij staan voor je klaar.</p>
+      <p>In onze fysieke winkel combineren we de nostalgische sfeer van de jaren '80 arcades met de brute kracht van de hardware van morgen.</p>
+      <h3>Waarom kiezen voor ons?</h3>
     </div>
     <div class="intro-image">
-      <img src="assets/daan.jpg" alt="Daan van der Meer">
+      <img src="assets/laptop.webp" alt="High-end gaming laptop">
     </div>
+  </section>
+
+  <section class="features-row">
+    <div class="shop-image">
+      <img src="assets/storefront.png" alt="LevelUp Hardware winkel in Breda">
+    </div>
+    <ul class="features-list">
+      <li><strong>Curated Selectie:</strong> Wij verkopen alleen laptops waar we zelf achter staan. Geen concessies op bouwkwaliteit of koeling.</li>
+      <li><strong>Expert Onderhoud:</strong> Van het vervangen van koelpasta tot complexe hardware-upgrades; wij verlengen de levensduur van je machine.</li>
+      <li><strong>Persoonlijk advies:</strong> Geen standaard verkooppraatjes, maar eerlijk advies gebaseerd op jouw favoriete games en workflow.</li>
+    </ul>
   </section>
 
   <section class="newsletter">
