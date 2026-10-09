@@ -33,3 +33,17 @@ document.addEventListener('keydown', function (event) {
     sluitModal();
   }
 });
+
+var themaKnop = document.getElementById('thema-knop');
+
+function wisselThema() {
+  document.documentElement.classList.toggle('light');
+
+  if (document.documentElement.classList.contains('light')) {
+    themaKnop.innerHTML = '&#9790; Donker thema';
+  } else {
+    themaKnop.innerHTML = '&#9728; Licht thema';
+  }
+}
+
+themaKnop.addEventListener('click', wisselThema);

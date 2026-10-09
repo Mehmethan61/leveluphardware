@@ -302,3 +302,126 @@ button:focus {
 .modal-sluiten:focus {
   color: #5fd4ff;
 }
+
+/* Thema knop */
+.main-nav li {
+  display: flex;
+  align-items: center;
+}
+
+.thema-knop {
+  background: none;
+  border: 2px solid #5fd4ff;
+  border-radius: 8px;
+  color: #e0e0e0;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: color .2s ease, box-shadow .2s ease;
+}
+
+.thema-knop:hover,
+.thema-knop:focus {
+  color: #5fd4ff;
+  box-shadow: 0 0 10px #5fd4ff;
+}
+
+@media (max-width: 700px) {
+  .thema-knop {
+    font-size: 15px;
+    padding: 8px 14px;
+  }
+}
+
+body {
+  transition: background-color .3s ease, color .3s ease;
+}
+
+/* Licht thema */
+html.light,
+html.light body {
+  background: #f1f5f9;
+  color: #23272e;
+}
+
+html.light .site-header,
+html.light .site-footer {
+  background: #ffffff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+}
+
+html.light .logo .line1 {
+  color: #c0188f;
+}
+
+html.light .logo .line2 {
+  color: #0e7aa8;
+}
+
+html.light .main-nav a,
+html.light .thema-knop {
+  color: #23272e;
+}
+
+html.light .main-nav a:hover,
+html.light .main-nav a:focus,
+html.light .thema-knop:hover {
+  color: #0e7aa8;
+}
+
+html.light .hero h1 {
+  color: #15803d;
+  text-shadow: 0 0 6px #22c55e, 0 0 14px #22c55e;
+}
+
+html.light .hero .subtitle {
+  color: #b3130f;
+  text-shadow: 0 0 6px #ff6b66, 0 0 14px #ff6b66;
+}
+
+html.light p,
+html.light .intro-text p,
+html.light .features-list li,
+html.light .location p,
+html.light .site-footer p,
+html.light .product-card p {
+  color: #23272e;
+}
+
+html.light h3,
+html.light .intro-text h3,
+html.light .features-list strong,
+html.light .location h3 {
+  color: #111827;
+}
+
+html.light .product-card {
+  background: #ffffff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+}
+
+html.light .product-card h3 {
+  color: #111827;
+  text-shadow: none;
+}
+
+html.light .features-list li::before {
+  color: #23272e;
+}
+
+html.light .modal-inhoud {
+  background: #ffffff;
+}
+
+html.light .modal-inhoud h3,
+html.light .modal-inhoud label,
+html.light .modal-sluiten {
+  color: #111827;
+}
+
+html.light .modal-inhoud input {
+  background: #f1f5f9;
+  color: #23272e;
+}
