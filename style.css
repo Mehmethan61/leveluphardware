@@ -223,3 +223,82 @@ button:focus {
   margin: 0;
   color: #e0e0e0;
 }
+
+/* Nieuwsbrief modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal.open {
+  display: flex;
+}
+
+.modal-inhoud {
+  position: relative;
+  width: 90%;
+  max-width: 440px;
+  padding: 32px;
+  background: #2c2f33;
+  border: 2px solid #22c55e;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #22c55e;
+}
+
+.modal-inhoud h3 {
+  margin: 0 0 10px;
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.modal-inhoud p {
+  margin: 0 0 18px;
+}
+
+.modal-inhoud label {
+  display: block;
+  margin: 14px 0 6px;
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.modal-inhoud input {
+  width: 100%;
+  padding: 10px;
+  background: #23272e;
+  border: 1px solid #5fd4ff;
+  border-radius: 6px;
+  color: #e0e0e0;
+  font-size: 16px;
+}
+
+.modal-inhoud .btn-newsletter {
+  margin-top: 22px;
+  border: 0;
+  cursor: pointer;
+}
+
+.modal-sluiten {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background: none;
+  border: 0;
+  color: #e0e0e0;
+  font-size: 30px;
+  cursor: pointer;
+  transition: color .2s ease;
+}
+
+.modal-sluiten:hover,
+.modal-sluiten:focus {
+  color: #5fd4ff;
+}
