@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LevelUp Hardware - Over Ons</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .site-header {
+    padding: 22px 64px;
+  }
+  .logo { font-size: 26px; }
+
+  .main-nav ul { gap: 56px; }
+  .main-nav a { font-size: 19px; }
+
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 70px 64px 90px;
+  }
+
+  .hero { margin-bottom: 44px; }
+  .hero h1 { font-size: 64px; }
+  .hero .subtitle { font-size: 34px; margin-top: 6px; }
+
+  .intro-row {
+    gap: 60px;
+    margin-bottom: 48px;
+  }
+  .intro-text { flex: 1 1 50%; }
+  .intro-text p { font-size: 17px; margin: 0 0 22px; }
+  .intro-text h3 { font-size: 19px; margin: 30px 0 0; }
+
+  .intro-image { flex: 1 1 46%; display: flex; align-items: flex-start; justify-content: center; padding-top: 6px; }
+  .intro-image img {
+    width: 100%;
+    max-width: 420px;
+    border: 2px solid #22c55e;
+    box-shadow: 0 0 12px #22c55e;
+  }
+
+  .features-row {
+    gap: 60px;
+    align-items: flex-start;
+  }
+  .shop-image { flex: 1 1 50%; }
+  .shop-image img { width: 100%; }
+
+  .features-list { flex: 1 1 46%; }
+  .features-list li { font-size: 17px; margin-bottom: 20px; padding-left: 1.3em; }
+
+  .newsletter { margin: 60px 0; }
+
+  @media (max-width: 700px) {
+    .site-header { padding: 16px 20px; flex-wrap: wrap; }
+    .logo { font-size: 17px; }
+    .main-nav { flex-basis: 100%; }
+    .main-nav ul { flex-direction: column; gap: 2px; }
+    .main-nav a { display: block; font-size: 17px; padding: 10px 0; }
+
+    main { padding: 44px 22px 60px; }
+    .hero h1 { font-size: 34px; }
+    .hero .subtitle { font-size: 20px; }
+
+    .intro-row { flex-direction: column; gap: 26px; }
+    .features-row { flex-direction: column; gap: 26px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo">
+    <span class="line1">LEVELUP</span>
+    <span class="line2">HARDWARE</span>
+  </div>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="over-ons.html">Over ons</a></li>
+      <li><a href="producten.html">Producten</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+  <h1>Over Ons</h1>
+  <p class="subtitle">LevelUp Hardware</p>
+  </section>
+
+     <section class="intro-row">
+    <div class="intro-text">
+      <p>Welkom bij Level Up Hardware, de plek waar jouw gaming-dromen werkelijkheid worden. Als eigenaar en drijvende kracht achter deze zaak, is Daan meer dan alleen een ondernemer; hij is een gamer in hart en nieren en een absolute hardware-enthousiasteling.</p>
+      <p>Al sinds zijn tienerjaren, omringd door de gloed van CRT-schermen en de pulserende beat van synthwave, sleutelde Daan aan zijn eigen gaming-rigs. Wat begon als een hobby – het finetunen van elke component voor die extra frame per seconde, het optimaliseren van koelsystemen voor piekprestaties – groeide al snel uit tot een diepgewortelde passie.</p>
+      <h3>Jouw Game is zijn Prioriteit</h3>
+      <p>Of je nu de grenzen van virtual reality verkent, in competitieverband strijdt om de hoogste rang, of gewoon wilt genieten van adembenemende singleplayer-avonturen: Daan en zijn team zorgen ervoor dat je hardware je nooit in de steek laat. Hij gelooft dat een perfect afgestelde machine het verschil maakt tussen gewoon gamen en écht domineren.</p>
+    </div>
+    <div class="intro-image">
+      <img src="assets/daan.jpg" alt="Daan van der Meer">
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <a href="#" class="btn-newsletter">Schrijf je in voor de nieuwsbrief</a>
+  </section>
+
+  <section class="location">
+    <h3>Waar vind je ons?</h3>
+    <p>Terheijdenseweg 350, Breda</p>
+    <iframe src="https://maps.google.com/maps?q=Terheijdenseweg%20350%20Breda&output=embed" loading="lazy" title="Locatie LevelUp Hardware"></iframe>
+  </section>
+</main>
+
+</body>
+</html>
