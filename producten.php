@@ -79,14 +79,7 @@
   </section>
 
   <section class="products">
-    <div class="product-card">
-      <img src="assets/laptop.webp" alt="Gaming Laptop X1">
-      <div>
-        <h3>Gaming Laptop X1</h3>
-        <p class="price">€1499</p>
-        <p>Krachtige laptop met de nieuwste GPU voor ultieme gaming prestaties.</p>
-      </div>
-    </div>
+    <h2 class="categorie">Desktops &amp; Laptops</h2>
 
     <div class="product-card">
       <img src="assets/pc.png" alt="Custom Gaming PC">
@@ -94,6 +87,51 @@
         <h3>Custom Gaming PC</h3>
         <p class="price">€1999</p>
         <p>Op maat gemaakte desktop met topkwaliteit componenten voor maximale snelheid.</p>
+        <p>Specificaties: Core i7, 32 GB DDR5, 1 TB NVMe SSD, RTX 4070</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="assets/laptop.webp" alt="Gaming Laptop X1">
+      <div>
+        <h3>Gaming Laptop X1</h3>
+        <p class="price">€1499</p>
+        <p>Krachtige laptop met de nieuwste GPU voor ultieme gaming prestaties.</p>
+        <p>Specificaties: 15,6 inch 165 Hz, Core i7, 16 GB RAM, RTX 4060</p>
+      </div>
+    </div>
+
+    <h2 class="categorie">Monitoren</h2>
+
+    <div class="product-card">
+      <img src="assets/monitor-ultrawide.png" alt="Ultrawide Curved Gaming Monitor">
+      <div>
+        <h3>Ultrawide Curved Gaming Monitor</h3>
+        <p class="price">€549</p>
+        <p>Gebogen ultrawide scherm voor race- en flightsimulators.</p>
+        <p>Specificaties: 34 inch, 3440x1440, 165 Hz, 1 ms</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="assets/monitor-oled.png" alt="4K OLED Monitor">
+      <div>
+        <h3>4K OLED Monitor</h3>
+        <p class="price">€899</p>
+        <p>Haarscherp beeld met diepe kleuren, ook geschikt voor grafisch werk.</p>
+        <p>Specificaties: 27 inch, 3840x2160, 144 Hz, 0,03 ms</p>
+      </div>
+    </div>
+
+    <h2 class="categorie">Randapparatuur</h2>
+
+    <div class="product-card">
+      <img src="assets/toetsenbord.jpg" alt="Mechanisch Toetsenbord 60%">
+      <div>
+        <h3>Mechanisch Toetsenbord 60%</h3>
+        <p class="price">€89</p>
+        <p>Compact toetsenbord met opvallende keycaps en verlichting.</p>
+        <p>Specificaties: 60% formaat, hot-swappable switches, RGB, USB-C</p>
       </div>
     </div>
 
@@ -103,6 +141,51 @@
         <h3>Pro Gaming Headset</h3>
         <p class="price">€199</p>
         <p>Comfortabele headset met surround sound voor een meeslepende game-ervaring.</p>
+        <p>Specificaties: 7.1 surround, noise-cancelling, afneembare microfoon</p>
+      </div>
+    </div>
+
+    <h2 class="categorie">Interne componenten</h2>
+
+    <div class="product-card">
+      <img src="assets/videokaart.png" alt="Videokaart RTX 4070">
+      <div>
+        <h3>Videokaart RTX 4070</h3>
+        <p class="price">€649</p>
+        <p>Massieve grafische kaart voor hoge framerates in de nieuwste games.</p>
+        <p>Specificaties: 12 GB GDDR6X, 3 ventilatoren, DLSS 3</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="assets/waterkoeler.png" alt="Waterkoeler AIO 360 mm">
+      <div>
+        <h3>Waterkoeler AIO 360 mm</h3>
+        <p class="price">€149</p>
+        <p>CPU-koeling met oplichtende ventilatoren en een scherm op de pomp.</p>
+        <p>Specificaties: 360 mm radiator, 3x 120 mm RGB-ventilatoren, scherm op de pomp</p>
+      </div>
+    </div>
+
+    <h2 class="categorie">Accessoires</h2>
+
+    <div class="product-card">
+      <img src="assets/muismat.png" alt="XXL RGB Muismat">
+      <div>
+        <h3>XXL RGB Muismat</h3>
+        <p class="price">€39</p>
+        <p>Bureaumat die onder zowel de muis als het toetsenbord past.</p>
+        <p>Specificaties: 90x40 cm, RGB-rand, antislip onderkant</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="assets/gamestoel.png" alt="Ergonomische Gamestoel">
+      <div>
+        <h3>Ergonomische Gamestoel</h3>
+        <p class="price">€299</p>
+        <p>Stoere, comfortabele stoel voor lange gamesessies.</p>
+        <p>Specificaties: verstelbare armleuningen, lendensteun, tot 150 kg</p>
       </div>
     </div>
   </section>
