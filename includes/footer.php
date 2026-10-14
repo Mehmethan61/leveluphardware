@@ -7,7 +7,7 @@
     <button class="modal-sluiten" id="modal-sluiten" aria-label="Sluiten">&times;</button>
     <h3 id="modal-titel">Schrijf je in voor de nieuwsbrief</h3>
     <p>Ontvang het laatste nieuws en de beste deals van LevelUp Hardware.</p>
-    <form method="post">
+    <form action="nieuwsbrief.php" method="post">
       <label for="nb-naam">Naam</label>
       <input type="text" id="nb-naam" name="naam" placeholder="Jouw naam">
 
